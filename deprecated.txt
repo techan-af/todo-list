@@ -1,0 +1,14 @@
+<% if(kindOfday === "Saturday" || kindOfday === "Sunday"){ %>
+        <h1 style="color: purple ;">It's a
+            <%= kindOfday %>
+        </h1>
+        <%} else{%>
+            <h1 style="color: blue;">It's a
+                <%= kindOfday %>
+            </h1>
+
+            <%}%>
+
+            <li>
+            <%= newListItems %>
+        </li>
